@@ -3,7 +3,7 @@
 #include <Adafruit_GFX.h>
 #include <Adafruit_SH1106.h>
 #define OLED_RESET 4
-int TIME_UNTIL_WARMUP = 10;
+int TIME_UNTIL_WARMUP = 200;
 int time;
 int analogPin = 0;
 int val = 0;
